@@ -1,0 +1,10 @@
+n=int(input('Enter n value'))
+a=0
+b=1
+sum=0
+for n in range(0,n):
+    sum=sum+a
+    c=a+b
+    a=b
+    b=c
+print(sum)    
